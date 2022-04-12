@@ -26,7 +26,9 @@ client.once("ready", () => {
 	console.log("Ready!");
 });
 
-// Listener and Logic for Commands (commands are registered at deploy-commands.js. commands have been transferred to commands folder. event listeners have been transferred to events folder.
+// Listener and Logic for Commands (commands are registered at deploy-commands.js. commands have been transferred to commands folder. Any time new command has been inputted to deploy-commands.js, node deploy-commands.js must be run to regstier command.
+
+// event listeners have been transferred to events folder but this folder system isnt working:
 
 // THIS IS SUPPOSED TO BE REPLACED BY EVENT HANDLER BELOW THIS. CANT GET THAT TO WORK. THIS WILL HAVE TO WORK FOR NOW.
 
@@ -100,7 +102,7 @@ client.on("interactionCreate", async (interaction) => {
 	}
 });
 
-// I CANT GET THE EVENT HANDLER TO WORK - COPIED PASTED FROM DOCUMENTATION YET STILL DOESNT TRIGGER:
+// I CANT GET THIS EVENT HANDLER LOOPER TO WORK - COPIED PASTED FROM DOCUMENTATION YET STILL DOESNT TRIGGER. THE ABOVE GIANT BLOCK OF CODE IS WORKING BUT UGLY AND I HATE IT.
 
 // const eventFiles = fs
 // 	.readdirSync("./events")

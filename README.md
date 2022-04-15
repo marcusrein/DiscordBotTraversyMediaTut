@@ -22,8 +22,6 @@ Now, go back to "Bot" and click "Reset Token" to get your token.
 
 Create .env file and add the TOKEN to the file.
 
-You can also add your mongodb DATABASE_URI in the .env file if you'd like (see line 33 of index.ts for database usage through WOKCommand Handler). Not required.
-
 Next install dependencies
 
 ### Dependencies

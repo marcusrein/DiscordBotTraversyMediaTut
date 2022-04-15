@@ -33,7 +33,11 @@ npm install
 -   Run "npm run dev". This will set up your nodemon server for your bot to run. This should connect your code to the bot.
 
 Slash commands demoed:
+
 /multiselectdemo and /singleselectdemo two demos of select menus
+
 /ping basic ping "pong" tester
+
 /server gives server info
+
 /user gives user info
